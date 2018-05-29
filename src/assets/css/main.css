@@ -1,0 +1,172 @@
+ *,
+ *::before,
+ *::after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ /** 清除内外边距 **/
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ hr,
+ p,
+ blockquote,
+ /* structural elements 结构元素 */
+
+ dl,
+ dt,
+ dd,
+ ul,
+ ol,
+ li,
+ /* list elements 列表元素 */
+
+ pre,
+ /* text formatting
+          elements 文本格式元素 */
+
+ form,
+ fieldset,
+ legend,
+ button,
+ input,
+ textarea,
+ /* form elements 表单元素 */
+
+ th,
+ td
+ /* table elements 表格元素
+*/
+
+   {
+   margin: 0;
+   padding: 0;
+ }
+
+ html,
+ body {
+   background-color: #f7f7f7;
+ }
+
+ /** 设置默认字体 **/
+
+ body,
+ button,
+ input,
+ select,
+ textarea
+ /* for ie */
+
+  {
+   font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体";
+   ;
+  }
+
+ /** 重置列表元素 **/
+
+ ul,
+ ol {
+   list-style: none;
+ }
+
+ /** 重置文本格式元素 **/
+
+ a {
+   text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+ .fl {
+   float: left;
+ }
+
+ .fr {
+   float: right;
+ }
+
+ .clearfix:after {
+   content: "";
+   display: block;
+   visibility: hidden;
+   height: 0;
+   clear: both;
+ }
+
+ img {
+   width: 100%;
+   height: auto;
+   width: auto\9;
+   /* ie8 */
+   display: block;
+   -ms-interpolation-mode: bicubic;
+   /*为了照顾ie图片缩放失真*/
+ }
+
+ body {
+   -webkit-overflow-scrolling: touch;
+   overflow: auto;
+   background-repeat: repeat-x;
+ }
+
+ /*重置样式*/
+
+ * {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+ }
+
+ a:hover,
+ a:focus {
+   text-decoration: none;
+ }
+
+ .displayNone {
+   display: none;
+ }
+
+ .actived {
+   display: block;
+ }
+
+ .fl {
+   float: left;
+ }
+
+ .fr {
+   float: right;
+ }
+
+ input[disabled]:hover {
+   cursor: not-allowed;
+ }
+
+ select[disabled]:hover {
+   cursor: not-allowed;
+ }
+
+ th,
+ td {
+   text-align: center;
+ }
+
+
+ /* input number类型上下按钮 */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+ }
+
+ input[type="number"] {
+   -moz-appearance: textfield;
+ }
